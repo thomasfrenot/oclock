@@ -15,3 +15,4 @@ Revoir également l'instanciation d'une class :
     //problème ici
 
 Revenir sur les base de la POO permettrait de corriger des erreurs dans le code et s'assurer de la bonne compréhension.
+

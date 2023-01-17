@@ -5,8 +5,8 @@ La fonction fetch en javascript, permet de faire une requête HTTP de manière *
 elle fonctionne avec les promesses javascript.
 
 Je m'explique, quand on charge une page HTML, on renseigne une URL dans le navigateur, par exemple pour afficher
-la liste des professeurs on appelle https://127.0.0.1:8000/teachers, cette requête est faite au serveur, et ce que tu as développé
-retourne au navigateur de manière synchrone le contenu à afficher, la liste des professeurs.
+la liste des professeurs on appelle https://127.0.0.1:8000/teachers, cette requête est faite au serveur, 
+et ce que tu as développé retourne au navigateur de manière synchrone le contenu à afficher, la liste des professeurs.
 
 Un fois le contenu affiché dans le navigateur, le contenu est "figé". En revanche le javascript va nous permet de 
 modifier le HTML (via le DOM) pour faire évoluer le code et la structure de la page affichée.
@@ -14,7 +14,7 @@ modifier le HTML (via le DOM) pour faire évoluer le code et la structure de la 
 C'est ici que *fetch* peut intervenir, c'est une méthode javascript qui nous permet de faire une requête de manière *asynchrone*,
 c'est à dire en parallèle et de manière desynchronisée du reste (requête classique et affichage).
 Généralement cette requête est faite après une action de l'utilisateur ou déclenchée par un événement quelconque, 
-par exemple: le clique sur un bouton ou la fin de chargement de la page.
+par exemple: le clic sur un bouton ou la fin de chargement de la page.
 
 Documentation de la méthode : https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 
@@ -39,7 +39,7 @@ Pour utiliser la réponse de la requête asynchrone on utilisera donc la syntaxe
         });
 
 `response` représente la réponse de la requête, elle contient le header et le body.
-A ce stade, on peut traiter pour récupérer le body et l'affiché dans notre page via un getElementById().innerHTML par exemple.
+A ce stade, on peut traiter pour récupérer le body et l'afficher dans notre page via un getElementById().innerHTML par exemple.
 
 Enfin pour aller plus loin dans l'usage, un 2eme paramètre permet d'ajouter des options à notre requête.
 Par exemple la méthode de la requête (GET / POST / PUT / DELETE), modifier le header pour diverse raison, communiquer des informations d'authentification par exemple.
@@ -74,5 +74,5 @@ chargé le HTML et que le DOM est construit.
 Dès que le chargement de la page est faite, on requête de nouveau le serveur pour récupérer la liste des professeurs et on injecte la reponse dans une div#content.
 
 Pour se faire, il faut s'assurer que la requête de base charge bien une div#content sans contenu particulier, c'est la requête fetch
-qui va récupérer uniquement le contenu à afficher sans le layout.
+qui va récupérer uniquement le contenu à afficher sans le layout html/body.
 
