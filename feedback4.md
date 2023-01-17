@@ -1,5 +1,5 @@
 # Apprenant 4
-**Non fonctionnel avec erreur Fatal**
+**Non fonctionnel avec erreur Fatal, problème class et routing**
 
 Le rendu n'est pas fonctionnel, des erreurs PHP (fatal) apparaissent.
 Il manque des fichiers notamment MainController et CoreController pourtant attendus.

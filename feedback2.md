@@ -10,7 +10,7 @@ compris l'utilisation des formulaires et des méthodes POST pour récupérer les
 L'accompagner dans ce sens :
 - une route pour afficher le formulaire (GET)
 - une route pour traiter le formulaire (POST)
-  - récupération des données postées
+  - récupération des données postées (voir les consignes de l'exercice filter_input / $_POST)
   - vérification des données
   - mise en place d'une méthode pour inserer le nouveau professeur
 

@@ -1,5 +1,5 @@
 # Apprenant 3
-**Incompréhension au niveau du templating**
+**Incompréhension au niveau du templating / controller**
 
 L'étudiant semble avoir quelques diffcultés à mettre en place ses controllers
 et ne semble pas avoir compris le passage controlleur -> vue ainsi que la gestion des routes.
