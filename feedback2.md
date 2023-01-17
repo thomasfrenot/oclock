@@ -8,7 +8,7 @@ Proposer d'avancer étape par étape pour ne pas se perdre dans ce qui est produ
 Comprendre ce qui peut bloquer ? L'étudiant semble s'être arrêté à l'ajout d'un professeur, peut-être n'a t'il pas
 compris l'utilisation des formulaires et des méthodes POST pour récupérer les informations.
 L'accompagner dans ce sens :
-- une route pour afficher le formulaire (GET)
+une route pour afficher le formulaire (GET)
 
 
     class TeacherController extends CoreController
@@ -19,8 +19,7 @@ L'accompagner dans ce sens :
         }
     }
     
-
-- une route pour traiter le formulaire (POST)
+une route pour traiter le formulaire (POST)
 
 
     class TeacherController extends CoreController
