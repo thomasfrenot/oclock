@@ -2,7 +2,7 @@
 **Incompréhension au niveau du templating**
 
 L'étudiant semble avoir quelques diffcultés à mettre en place ses controllers
-et ne semble pas avoir compris le passage controlleur -> vue et la gestion des routes également.
+et ne semble pas avoir compris le passage controlleur -> vue ainsi que la gestion des routes.
 
 La base n'est pas en place alors l'étudiant c'est perdu en chemin.
 Il faudrait revenir au point de départ et réexpliquer le cheminement.
