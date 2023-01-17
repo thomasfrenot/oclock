@@ -17,3 +17,4 @@ L'accompagner dans ce sens :
 la fonction input_filter https://www.php.net/manual/fr/function.filter-input.php
 
 Récupérer le contenu via $_GET ou $_POST https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/recuperer-manipuler-donnee-formulaire/
+

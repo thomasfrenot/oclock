@@ -2,7 +2,7 @@
 ##Apprenant 1
 🟢 RAS
 
-Les bases et plus sont là, le travail est fonctionnelle. 
+Les bases++ sont là, le travail est fonctionnel. 
 Pour aller plus loin, relire son code et améliorer la lecture (commentaire, naming etc...).
 
 ##Apprenant 2
@@ -22,5 +22,5 @@ Problèmes sur les vues et les controllers, le model n'est pas non plus maitris�
 🟠 Insuffisant pour Valider
 
 Des problèmes au niveaux des controllers, class manquante MainController et CoreController.
-L'étudiant n'a pas saisi le fonctionnement des class et du routing. 
+L'étudiant n'a pas saisi le fonctionnement des class et du routing.
 Malgré un bon découpage côté vue (template) et des models en place. Il faut revoir la partie controller pour débloqué l'apprenant.
