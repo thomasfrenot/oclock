@@ -12,7 +12,7 @@ ne doit pas pouvoir être instancié, en faire une class abstraite permettra de 
 être concis sur le naming (ex : il n'est pas nécessaire de rappeler *teacher*UpdatePost dans le controller Teacher, 
 updatePost suffit).
 
-        
+
     class TeacherController extends CoreController
     {
         public function add() {}

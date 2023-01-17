@@ -44,6 +44,7 @@ Récupérer le contenu via $_GET ou $_POST https://www.pierre-giraud.com/php-mys
 Ensuite pour les prochaines routes POST, les updates par exemple, on a besoin de l'id en paramètre pour savoir quel professeur 
 est modifié, pour cela dans le routing (index.php), on ajoute un param `[i:id]` voir doc AltoRouter https://altorouter.com/usage/mapping-routes.html
 
+
     $router->map(
       'GET',
       '/teacher/[i:teacherid]/delete',
