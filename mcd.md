@@ -12,11 +12,13 @@
         ...
 
 - il manque un lien `Order` envoyer à `Address`, pour définier l'adresse de livraison de l'order
-- pour la gestion du `Like` ManyToMany, il faut définir des données dans la relation pour préciser le produit et le user
-cela permettrait également d'avoir plus d'information sur le LIKE, la date par exemple
+- pour la gestion du `Like` ManyToMany :
+  - la cardinalité n'est pas correct, un produit peut être like par 0 ou n User et inversement
+  - il faut définir des données dans la relation pour préciser le produit et le user
+  cela permettrait également d'avoir plus d'information sur le LIKE, la date par exemple
     
 
     LIKE
         date
 
-on comprend alors que c'est une table relationnelle.
+création d'une table associative.
